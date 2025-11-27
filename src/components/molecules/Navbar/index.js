@@ -58,13 +58,13 @@ export default function Navbar() {
 
   return (
     <div
-      className={`visible ${show && "nav-hidden"} shadow-lg bg-[#313131] 
+      className={`visible ${show && "nav-hidden"} shadow-lg bg-[accent] 
      z-50`}
     >
       <div className="w-full flex items-center justify-between px-3 md:px-24 py-3">
         <div>
           <Link to="/">
-            <h1 className="text-2xl text-secondary font-apple">justImran</h1>
+            <h1 className="text-2xl text-secondary font-apple">jI</h1>
           </Link>
         </div>
         <div>
@@ -102,7 +102,7 @@ export default function Navbar() {
               open={isOpen}
               onClose={toggleDrawer}
               direction="right"
-              style={{ backgroundColor: "#0000" }}
+              style={{ backgroundColor: "#ffffff00" }}
               className="bla bla bla flex flex-col justify-between pb-4"
             >
               <ul className="">

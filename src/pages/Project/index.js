@@ -75,7 +75,7 @@ const Project = () => {
                   : setItems(Items);
               }}
             >
-              All📂
+              All 📂
             </button>
             <button
               className={`btn btn-sm bg-secondary border-2 border-secondary text-white hover:bg-transparent hover:border-secondary duration-300 mx-3 my-3 sm:my-0 ${
@@ -86,7 +86,7 @@ const Project = () => {
                 filterItem("business");
               }}
             >
-              Business🕴🏿
+              Business 💼
             </button>
             <button
               className={`btn btn-sm bg-secondary border-2 border-secondary text-white hover:bg-transparent hover:border-secondary duration-300 mx-3 my-3 sm:my-0 ${
@@ -97,7 +97,7 @@ const Project = () => {
                 filterItem("personal");
               }}
             >
-              Personal🦾
+              Personal 🤩
             </button>
             <button
               className={`btn btn-sm bg-secondary border-2 border-secondary text-white hover:bg-transparent hover:border-secondary duration-300 mx-3 my-3 sm:my-0 ${
@@ -108,7 +108,7 @@ const Project = () => {
                 filterItem("game");
               }}
             >
-              Game🎮
+              Game 🎲
             </button>
           </div>
 

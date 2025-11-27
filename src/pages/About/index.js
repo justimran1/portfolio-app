@@ -36,7 +36,7 @@ const About = () => {
             }}
           >
             <img
-              src="https://res.cloudinary.com/du541igfh/image/upload/v1683035791/Blog%20Portfolio%20Gilbert/Project/berthutapea.com/GilbertHutapea_qjy2gq.png"
+              src=""
               alt="Imran Olubodun"
               className="p-12 w-70 h-70 transform translate-y-[-12%]"
               title="Imran Olubodun"

@@ -90,7 +90,7 @@ const Contact = () => {
           animate={viewDiv && "visible"}
           variants={contactAnimation}
         >
-          <h2 className="text-2xl font-medium">Contact Me</h2>
+          <h2 className="text-2xl font-medium mb-6">Contact Me</h2>
           <form ref={form} onSubmit={handleSend}>
             <div className="grid gap-3">
               <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-3">
@@ -149,23 +149,22 @@ const Contact = () => {
         >
           <h2 className="text-2xl font-medium">Contact Info</h2>
           <div className="flex items-center my-6">
-            <FaIdBadge className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaIdBadge>
-            <h3 className="font-medium text-primary">Imran Olubodun</h3>
+            <p className="text-2xl hover:text-primary cursor-pointer duration-300"></p>
+            <h3 className="font-medium text-primary">🧑🏿 Imran Olubodun</h3>
           </div>
           <div className="flex items-center my-6">
-            <FaMobileAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaMobileAlt>
-            <h3 className="font-medium text-primary">+234 816 121 9508</h3>
+            <p className="text-2xl hover:text-primary cursor-pointer duration-300"></p>
+            <h3 className="font-medium text-primary">📞 +234 816 121 9508</h3>
           </div>
           <div className="flex items-center my-6">
-            <FaEnvelope className="text-3xl mr-8 hover:text-primary cursor-pointer duration-300"></FaEnvelope>
+            <p className="text-3xl hover:text-primary cursor-pointer duration-300"></p>
             <h3 className="font-medium text-primary">
-              olubodunalade@gmail.com
+              📦 olubodunalade@gmail.com
             </h3>
           </div>
           <div className="flex items-center my-6">
-            <FaMapMarkerAlt className="text-2xl mr-8 hover:text-primary cursor-pointer duration-300"></FaMapMarkerAlt>
-
-            <h3 className="font-medium text-primary">Lagos, Nigeria</h3>
+            <p className="text-2xl hover:text-primary cursor-pointer duration-300"></p>
+            <h3 className="font-medium text-primary">🌎 Lagos, Nigeria</h3>
           </div>
           <div className="mt-8 flex items-center">
             <h3 className="text-xl text-neutral">Social</h3>

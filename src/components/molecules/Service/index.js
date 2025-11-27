@@ -97,8 +97,8 @@ const Service = () => {
             key={service.id}
             className={`${
               service.id % 2 === 0
-                ? "bg-accent shadow-lg"
-                : "bg-accent shadow-lg"
+                ? "bg-accent shadow-lg shadow-purple-500/30"
+                : "bg-accent shadow-lg shadow-purple-500/40"
             } rounded-lg p-6 hover:shadow-primary cursor-pointer duration-300`}
           >
             <div className="mb-4 text-center">
