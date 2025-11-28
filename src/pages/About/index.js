@@ -6,6 +6,7 @@ import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { BottomLine, MySkill, Education } from "../../components";
 import { FaDownload } from "react-icons/fa";
+import boyVR from "../../assets/boy-with-vr.png";
 
 const About = () => {
   return (
@@ -36,7 +37,7 @@ const About = () => {
             }}
           >
             <img
-              src=""
+              src={boyVR}
               alt="Imran Olubodun"
               className="p-12 w-70 h-70 transform translate-y-[-12%]"
               title="Imran Olubodun"

@@ -1,5 +1,5 @@
 #loader-container {
-  background-color: #212121;
+  background-color: #000000ff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@
   content: "";
   width: 10px;
   height: 10px;
-  background: #f79d41;
+  background: #d400ff;
   border-radius: 69%;
   right: 5px;
   top: 10px;
