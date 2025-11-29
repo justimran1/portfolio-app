@@ -43,10 +43,10 @@ const BlogDetail = () => {
       </div>
       <div className="flex items-center justify-between flex-wrap mt-16 mb-4">
         <span>
-          <strong className="text-secondary">Olubodun Imran</strong>
+          <strong className="text-white">Olubodun Imran</strong>
         </span>
         <span>
-          <strong className="text-secondary">{blog?.date}</strong>
+          <strong className="text-white">{blog?.date}</strong>
         </span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
@@ -96,18 +96,12 @@ const BlogDetail = () => {
             <EmailShareButton url={url} title="Olubodun Imran">
               <EmailIcon size={32} round={true} />
             </EmailShareButton>
-            <FacebookShareButton url={url} title="Olubodun Imran">
-              <FacebookIcon size={32} round={true} />
-            </FacebookShareButton>
             <TwitterShareButton url={url} title="Olubodun Imran">
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
             <LinkedinShareButton url={url} title="Olubodun Imran">
               <LinkedinIcon size={32} round={true} />
             </LinkedinShareButton>
-            <WhatsappShareButton url={url} title="Olubodun Imran">
-              <WhatsappIcon size={32} round={true} />
-            </WhatsappShareButton>
           </div>
 
           <div className="w-full h-[1px] bg-neutral my-6"></div>

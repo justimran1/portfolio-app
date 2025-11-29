@@ -23,7 +23,7 @@ const Education = () => {
           <Lottie
             animationData={readingBook}
             loop={true}
-            style={{ height: 400, width: 400 }}
+            style={{ height: 300, width: 320 }}
           />
         </div>
         <div className="mx-auto lg:ml-auto">
@@ -86,7 +86,7 @@ const Education = () => {
           <Lottie
             animationData={readingBook}
             loop={true}
-            style={{ height: 400, width: 400 }}
+            style={{ height: 300, width: 320 }}
           />
         </div>
         <div className="mx-auto lg:ml-auto">
@@ -96,7 +96,9 @@ const Education = () => {
               <h4 className="text-2xl font-semibold text-secondary">
                 Software Intern |HIIT PLC
               </h4>
-              <p className="text-sm text-neutral font-semibold">2022 - 2026</p>
+              <p className="text-sm text-neutral font-semibold">
+                May - October 2025
+              </p>
             </div>
             <p className="text-sm text-neutral text-justify">
               Practical full stack development with mordern web technologies

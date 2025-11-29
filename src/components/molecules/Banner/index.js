@@ -6,6 +6,7 @@ import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
 import Lottie from "lottie-react";
 import coding from "../../../assets/coding.json";
+import man from "../../../assets/man-with-t-shirt.png";
 import "../../../pages/shared/Shared.css";
 import { SecondaryBtn } from "../../../components";
 
@@ -83,10 +84,11 @@ const Banner = () => {
         animate={{ x: 0 }}
         transition={{ duration: 1 }}
       >
-        <Lottie
-          animationData={coding}
-          loop={true}
-          style={{ height: 400, width: 400 }}
+        <img
+          src={man}
+          alt="Imran Olubodun"
+          className="p-12 w-70 h-70 transform translate-y-[-12%]"
+          title="Imran Olubodun"
         />
       </motion.div>
     </div>

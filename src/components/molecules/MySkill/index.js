@@ -1,46 +1,47 @@
 import React from "react";
 import Lottie from "lottie-react";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaNodeJs,
-  FaReact,
-  FaBootstrap,
-  FaGithub,
-} from "react-icons/fa";
+import { FaHtml5, FaNodeJs, FaReact, FaGithub } from "react-icons/fa";
 import {
   SiJavascript,
   SiTailwindcss,
   SiExpress,
-  SiMongodb,
-  SiAdobephotoshop,
-  SiFirebase,
+  SiPostgresql,
+  SiPython,
+  SiSupabase,
+  SiDjango,
+  SiPassport,
 } from "react-icons/si";
 import man from "../../../assets/man.json";
 
 const MySkill = () => {
   const languages = [
     { title: "HTML", icon: <FaHtml5 className="text-orange-600" /> },
-    { title: "CSS", icon: <FaCss3Alt className="text-blue-400" /> },
     {
       title: "JavaScript",
       icon: <SiJavascript className="text-yellow-500 rounded" />,
     },
     { title: "NodeJS", icon: <FaNodeJs className="text-green-600" /> },
+    { title: "python", icon: <SiPython className="text-cyan-800" /> },
   ];
   const frameworks = [
     { title: "React", icon: <FaReact className="text-cyan-400" /> },
-    { title: "Bootstrap", icon: <FaBootstrap className="text-indigo-600" /> },
     { title: "Tailwind", icon: <SiTailwindcss className="text-cyan-400" /> },
     { title: "ExpressJS", icon: <SiExpress className="text-neutral" /> },
+    {
+      title: "django",
+      icon: <SiDjango className="text-purple-800" />,
+    },
   ];
   const tools = [
-    { title: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
-    { title: "GitHub", icon: <FaGithub className="text-black" /> },
-    { title: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
     {
-      title: "Photoshop",
-      icon: <SiAdobephotoshop className="text-cyan-800" />,
+      title: "SiPostgresql",
+      icon: <SiPostgresql className="text-blue-800" />,
+    },
+    { title: "GitHub", icon: <FaGithub className="text-black" /> },
+    { title: "SiSupabase", icon: <SiSupabase className="text-green-700" /> },
+    {
+      title: "passport",
+      icon: <SiPassport className="text-red-600" />,
     },
   ];
 
@@ -72,7 +73,7 @@ const MySkill = () => {
               </div>
             ))}
           </div>
-          <h2 className="text-cyan-500 text-xl font-semibold">
+          <h2 className="text-primary-500 text-xl font-semibold">
             Library & Frameworks:
           </h2>
           <div className="flex flex-wrap mb-4">
@@ -87,7 +88,7 @@ const MySkill = () => {
               </div>
             ))}
           </div>
-          <h2 className="text-cyan-500 text-xl font-semibold">
+          <h2 className="text-primary-500 text-xl font-semibold">
             Tools & Technologies:
           </h2>
           <div className="flex flex-wrap mb-4">
@@ -107,7 +108,7 @@ const MySkill = () => {
           <Lottie
             animationData={man}
             loop={true}
-            style={{ height: 400, width: 400 }}
+            style={{ height: 350, width: 350 }}
           />
         </div>
       </div>
