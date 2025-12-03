@@ -10,13 +10,9 @@ import { SiLinkedin, SiInstagram } from "react-icons/si";
 import {
   EmailShareButton,
   EmailIcon,
-  FacebookShareButton,
-  FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
   LinkedinShareButton,
-  WhatsappShareButton,
-  WhatsappIcon,
   LinkedinIcon,
 } from "react-share";
 

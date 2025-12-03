@@ -3,19 +3,7 @@ import "./Contact.css";
 import "../../components/atoms/PrimaryBtn/PrimaryBtn.css";
 import "../shared/Shared.css";
 import { motion, useAnimation } from "framer-motion";
-import {
-  FaUserAlt,
-  FaPhoneAlt,
-  FaLocationArrow,
-  FaLinkedin,
-  FaGithubSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
-  FaEnvelope,
-  FaMobileAlt,
-  FaMapMarkerAlt,
-  FaIdBadge,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
 import { MdEmail, MdSend } from "react-icons/md";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
@@ -170,32 +158,32 @@ const Contact = () => {
             <h3 className="text-xl text-neutral">Social</h3>
             <div className="bg-gray-400 w-10 h-[2px] mx-4"></div>
             <a
-              href="https://linkedin.com/in/gilberthutapea"
+              href="https://www.linkedin.com/in/bolaji-imran-olubodun-562aa934a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaLinkedin></FaLinkedin>
+              <FaLinkedinIn></FaLinkedinIn>
             </a>
             <a
-              href="https://www.github.com/berthutapea"
+              href="https://github.com/justimran1"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaGithubSquare></FaGithubSquare>
+              <FaGithub></FaGithub>
             </a>
             <a
-              href="https://twitter.com/GilbertHutapeaa"
+              href="https://x.com/pellingham_?s=11&t=bhMaRk9awznvD-Lo9XfLMg"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaTwitterSquare></FaTwitterSquare>
+              <FaTwitter></FaTwitter>
             </a>
             <a
-              href="https://www.instagram.com/bethup97/"
+              href="https://www.instagram.com/justimran____?igsh=aHF3YmxzdnVlZTZv&utm_source=qr"
               target="blank"
               className="text-3xl text-neutral hover:text-primary hover:-translate-y-1.5 shadow-lg mx-1 duration-300"
             >
-              <FaInstagramSquare></FaInstagramSquare>
+              <FaInstagram></FaInstagram>
             </a>
           </div>
         </motion.div>
