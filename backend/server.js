@@ -1,24 +1,26 @@
-import express from "express";
-import cors from "cors";
-import dotenv from "dotenv";
-import { sendContactEmail } from "./contact.js";
+import { Resend } from "resend";
 
-dotenv.config();
-
-const app = express();
-app.use(cors());
-app.use(express.json());
-
-app.post("/send-email", async (req, res) => {
-  try {
-    const result = await sendContactEmail(req.body);
-    res.json(result);
-  } catch (err) {
-    res.status(500).json({ error: err.message });
-    throw err; // so your Express route sends a 500
+export default async function handler(req, res) {
+  if (req.method !== "POST") {
+    return res.status(405).json({ error: "Method Not Allowed" });
   }
-});
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
-});
+  const resend = new Resend(process.env.RESEND_API_KEY);
+
+  try {
+    const { name, email, message } = req.body;
+
+    const data = await resend.emails.send({
+      from: "Portfolio <onboarding@resend.dev>",
+      to: "your@email.com",
+      subject: "New Contact Message",
+      html: `<p><strong>Name:</strong> ${name}</p>
+             <p><strong>Email:</strong> ${email}</p>
+             <p><strong>Message:</strong> ${message}</p>`,
+    });
+
+    return res.status(200).json({ success: true, data });
+  } catch (error) {
+    return res.status(500).json({ error });
+  }
+}

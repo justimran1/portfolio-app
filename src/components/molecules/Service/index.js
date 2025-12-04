@@ -33,7 +33,7 @@ const Service = () => {
     },
     {
       id: 2,
-      title: "MERN Development",
+      title: "Fullstack Development",
       icon: <FiServer />,
       description:
         "I am very familiar with NodeJS, Express JS, and PostgreSQL. So I can build full-stack application with MERN.",

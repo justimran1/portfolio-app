@@ -52,12 +52,12 @@ const About = () => {
               transition: { duration: 1, delay: 1.25 },
             }}
           >
-            <h1 className="text-4xl font-semibold mb-4 text-center translate-y-[-380%] sm:translate-y-[-0%] sm:text-3xl sm:mb-2 md:text-left">
+            <h1 className="text-4xl font-semibold mb-4 text-center sm:text-3xl sm:mb-2 md:text-left">
               Imran Olubodun
             </h1>
             <div className="my-8">
               <TypeAnimation
-                className="text-2xl text-primary font-bold text-center translate-y-[-500%] sm:translate-y-[-0%]  sm:text-2xl sm:mb-2 md:text-left"
+                className="text-2xl text-primary font-bold text-center sm:text-2xl sm:mb-2 md:text-left"
                 cursor={true}
                 sequence={[
                   "A Software Developer",
@@ -71,7 +71,7 @@ const About = () => {
                 repeat={Infinity}
               />
             </div>
-            <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+            <p className="text-neutral font-medium text-center sm:mb-2 md:text-left">
               I’m a software developer with a strong focus on building
               efficient, reliable, and scalable digital solutions. I work across
               the full stack using technologies like React, Node.js, Express,
@@ -84,13 +84,13 @@ const About = () => {
               users.
             </p>
             <br />
-            <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
+            <p className="text-neutral font-medium text-center sm:mb-2 md:text-left">
               I’m constantly improving my skills, exploring new tools, and
               expanding my capabilities as a developer—whether it’s designing
               smarter interfaces, optimizing system performance, or developing
               end-to-end production-ready applications.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center sm:mb-2 md:text-left">
               <h2 className="font-medium">
                 <span className="mr-2 text-primary">Name : </span>Imran Olubodun
               </h2>
@@ -110,7 +110,7 @@ const About = () => {
                 href="https://drive.google.com/file/d/19rnbukAhf9oPhadMhsvI3xnWF6FIYeMT/view?usp=share_link"
                 target="blank"
               >
-                <div className="flex justify-center md:justify-start translate-y-[60%] sm:translate-y-[-0%]">
+                <div className="flex justify-center md:justify-start">
                   <button className="primary-button">
                     <span>My Resume</span>
                     <span>
