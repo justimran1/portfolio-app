@@ -1,113 +1,124 @@
 const Items = [
   {
-    id: 1,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682699543/Blog%20Portfolio%20Gilbert/Project/msnproduction/img-1_rmh7lp.png",
-    ],
-    title: "Msn Production",
-    description:
-      "PT. MULIA SEJATI NUSANTARA Established on June 24, 2019, a limited liability company engaged in supplier & contractor services. Then on January 22 2022 PT. MULIA SEJATI NUSANTARA Opening a new business branch in the Technology Sector which includes Website Creation, Mobile Applications, Branding, Creative Content, Digital Marketing & Advertising. This branch is called Mulia Sejati Nusantara Production or in short MSN PRODUCTION.",
-    category: "business",
-    liveLink: "https://msnproduction.com/",
-    codeLink: "https://github.com/berthutapea/msnproduction.com",
-  },
-  {
     id: 2,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701479/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-4_kmaye9.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682701456/Blog%20Portfolio%20Gilbert/Project/mern-blog/img-1_jppjdj.png",
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764846593/Screenshot_322_lt0vbw.png",
     ],
-    title: "Mern Blog",
+    title: "Fullstack Blog Application",
     description:
-      "Fullstack open source blogging application made with MongoDB, Express, React & Nodejs (MERN)",
+      "Fullstack opensource blog application made with postgresql, Express, React & Nodejs (MERN)",
+    technologies: [
+      " React",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "JWT",
+      "Tailwind CSS",
+    ],
     category: "personal",
-    liveLink: "https://berthutapea.vercel.app/mern-blog",
-    codeLink: "https://github.com/berthutapea/mern-blog-v2",
+    liveLink: "https://blankspace.onrender.com/",
+    codeLink: "https://github.com/justimran1/blankspace",
   },
   {
     id: 3,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1684312778/Blog%20Portfolio%20Gilbert/Project/mern-movie/img-1_lcun2a.png",
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764846613/Screenshot_320_jovqxl.png",
     ],
-    title: "BertFlix",
+    title: "ink & Echoes",
     description:
-      "Fullstack open source movie application made with MongoDB, Express, React & Nodejs (MERN)",
+      "A full-stack library management app with Node.js, Express, EJS, and PostgreSQL. It includes CRUD operations for books/authors, clean UI design, dynamic views, and cloud deployment using Render + Supabase.",
+    technologies: [" EJS", "Node.js", "Express", "PostgreSQL", "Tailwind CSS"],
     category: "personal",
-    liveLink: "https://bertflix.vercel.app/",
-    codeLink: "https://github.com/berthutapea/mern-movie",
+    liveLink: "https://inks-echoes.onrender.com/",
+    codeLink: "https://github.com/justimran1/inks-echoes",
   },
   {
     id: 4,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-2_vsab0u.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682772430/Blog%20Portfolio%20Gilbert/Project/mern-penggajian-karyawan/img-1_gywmlj.png",
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764846627/Screenshot_319_dfmprv.png",
     ],
-    title: "Employee Salary Management",
+    title: "🌍pathscribe",
     description:
-      "Warehouse website with employee/employee management, add employee and job title options. Employee attendance data setting salary deductions and salary data. Print salary reports, attendance and salary data and many other features.",
-    category: "business",
-    liveLink: "https://berthutapea.vercel.app/employee-salary-management",
-    codeLink: "https://github.com/berthutapea/mern-employee-salary-management",
+      "A full-stack travel diary platform designed for families to track visited countries, store memories, and upload photos in a personalized dashboard. The application provides a secure, multi-user environment where each family member can log in, view their travel history, and attach notes or images to specific countries",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "postgreSql",
+      "JWT",
+      "Tailwind CSS",
+      "cloudinary",
+      "multer",
+    ],
+    category: "personal",
+    liveLink: "https://blankspace.onrender.com/",
+    codeLink: "https://github.com/justimran1/family-travel-tracker",
   },
   {
     id: 5,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683869747/Blog%20Portfolio%20Gilbert/Project/mern-student-management-system/img-1_yhedpu.png",
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764846652/Screenshot_316_sjowuo.png",
     ],
-    title: "Student Management System",
+    title: "coding conf",
     description:
-      "Fullstack open source student management system application made with MongoDB, Express, React & Nodejs (MERN)",
-    category: "business",
-    liveLink: "https://sttiss.vercel.app/",
-    codeLink: "https://github.com/berthutapea/mern-student-management-system",
-  },
-  {
-    id: 6,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-2_iwduig.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682964283/Blog%20Portfolio%20Gilbert/Project/mario-jump-game/img-1_gpiiro.png",
-    ],
-    title: "Mario Jump",
-    description:
-      "Mario Jump is an endless running game inspired by the famous Google Chrome's T-Rex Dinosaur Game 🦖. The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.",
-    category: "game",
-    liveLink: "https://mariojumpp.vercel.app/",
-    codeLink: "https://github.com/berthutapea/mario-jump-game",
-  },
-  {
-    id: 7,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944695/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-3_t6uxoj.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1682944091/Blog%20Portfolio%20Gilbert/Project/bert-quiz/img-1_gqero4.png",
-    ],
-    title: "Bert Quiz",
-    description: "Fullstack open source quiz application",
+      "fontend conference landing page built with vanillajs and vanilla CSS. The landing page features a modern design, responsive layout, ",
+    technologies: ["HTML", "CSS", "JavaScript", "vanilla CSS"],
     category: "personal",
-    liveLink: "https://bertquiz.vercel.app/",
-    codeLink: "https://github.com/berthutapea/react-quiz",
+    liveLink: "https://ticket-gen.vercel.app/",
+    codeLink: "https://github.com/justimran1/ticket-gen",
+  },
+  {
+    id: 14,
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764846548/Screenshot_2025-12-04_115512_lwtasc.png",
+    ],
+    title: "Wedding Organizer Website",
+    description:
+      "Designed to help event planners, wedding photographers, and families organize and showcase large photo collections online.It can also be adapted for portfolio galleries, event albums, product showcases, or any system needing secure cloud media management.",
+    category: "business",
+    technologies: [
+      " React",
+      "Node.js",
+      "Express",
+      "postgreSql",
+      "Cloudinary",
+      "Tailwind CSS",
+    ],
+    liveLink: "https://wedding-73se.onrender.com/",
+    codeLink: "https://github.com/justimran1/wedding",
+  },
+  {
+    id: 9,
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764846539/Screenshot_2025-12-04_115812_gdvxp1.png",
+    ],
+    title: "Dice",
+    description:
+      "frontend dice game built with React.js and Tailwind CSS. The game features a simple interface where players can roll virtual dice",
+    technologies: [" React", "Tailwind", "CSS"],
+    category: "game",
+    liveLink: "https://justimran1.github.io/dice2/",
+    codeLink: "https://github.com/justimran1/dice2",
   },
   {
     id: 8,
-    mainImage:
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
-    img: [
-      "https://res.cloudinary.com/du541igfh/image/upload/v1683033408/Blog%20Portfolio%20Gilbert/Project/shopify/img-1_q5d6pn.png",
+    mainImage: [
+      "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764849021/Screenshot_2025-12-04_125002_v5hil5.png",
     ],
-    title: "Shopify",
-    description: "Open source landing page shopify application",
+    title: "jokesWpain",
+    description:
+      "This is a web application that fetches jokes from the JokeAPI.It allows you to search for jokes by string, ID, or category, and also get random jokes. BUilt with embedded JavaScript, bootstrap,express  .",
+    technologies: [
+      " EJS",
+      "Node.js",
+      "Express",
+      "Bootstrap",
+      " JavaScript",
+      "css",
+    ],
     category: "personal",
-    liveLink: "https://shopifyy.vercel.app/",
-    codeLink: "https://github.com/berthutapea/react-shopify-landing",
+    liveLink: "https://jokesapi-ligl.onrender.com/",
+    codeLink: "https://github.com/justimran1/jokesAPI",
   },
 ];
 

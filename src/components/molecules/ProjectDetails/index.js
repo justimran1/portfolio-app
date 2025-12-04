@@ -39,17 +39,12 @@ const ProjectDetails = () => {
       <h1 className="text-center text-4xl font-medium mt-8">{item?.title}</h1>
 
       <Slider {...settings}>
-        {item?.img?.map((image, index) => (
+        {item?.mainImage?.map((image, index) => (
           <div key={index} className="mt-6">
             <div
-              className="mx-1 md:mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-2 border-primary flex flex-col justify-between"
+              className="mx-1 md:mx-4 rounded-lg shadow-xl single-blog cursor-pointer border-0 border-primary flex flex-col justify-between"
               style={{ backgroundColor: "black" }}
             >
-              {/* <img
-                src={image}
-                alt={item?.title}
-                className="inline-block w-full h-64 md:h-72 rounded-lg"
-              /> */}
               <LazyLoadImage
                 placeholderSrc={placeholderImage}
                 src={image}
@@ -63,16 +58,6 @@ const ProjectDetails = () => {
         <span className="font-semibold text-white text-xl">Description: </span>{" "}
         {item?.description}
       </p>
-      <div className="my-6">
-        <h2 className="text-2xl font-semibold mb-3">Features:</h2>
-        <ul className="list-disc grid grid-cols-1 md:grid-cols-2 ml-4">
-          {item?.features?.map((feature, index) => (
-            <li key={index} className="text-neutral">
-              {feature}
-            </li>
-          ))}
-        </ul>
-      </div>
 
       <div className="my-6">
         <h2 className="text-2xl font-semibold mb-3">Tools & Technologies:</h2>

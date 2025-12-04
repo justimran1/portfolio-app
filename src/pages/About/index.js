@@ -72,23 +72,23 @@ const About = () => {
               />
             </div>
             <p className="text-neutral font-medium text-center translate-y-[-100%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-              As a MERN stack developer, I am committed to building high-quality
-              web applications that meet the needs of my clients. With years of
-              experience in full-stack web development, I specialize in using
-              React.js, Next js, Typescript, MongoDB, Express.js, and Node.js to
-              create scalable and robust web applications.
-              {/* Dedicated Front-end developer. Capable to solve working problems.
-              Passionate about learning & development to reach the target. Eager
-              to tackle more complex problems and continue to find ways to
-              maximize user efficiency. */}
+              I’m a software developer with a strong focus on building
+              efficient, reliable, and scalable digital solutions. I work across
+              the full stack using technologies like React, Node.js, Express,
+              and PostgreSQL, creating systems that balance performance,
+              usability, and clean architecture. My experience spans frontend
+              engineering, backend API development, automation with Python, and
+              the foundations of cross-platform development using Flutter. I
+              enjoy solving complex problems, designing maintainable systems,
+              and building software that is simple, fast, and intuitive for
+              users.
             </p>
             <br />
             <p className="text-neutral font-medium text-center translate-y-[-150%] sm:translate-y-[-0%] sm:mb-2 md:text-left">
-              My passion for solving complex problems and creating innovative
-              solutions drives me to stay up-to-date with the latest
-              technologies and trends in the industry.
-              {/* My next mission is how to become a Mern stack Developer. I would
-              love to build some Giant Website which will shine myself. */}
+              I’m constantly improving my skills, exploring new tools, and
+              expanding my capabilities as a developer—whether it’s designing
+              smarter interfaces, optimizing system performance, or developing
+              end-to-end production-ready applications.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-4 mt-4 text-center translate-y-[-50%] sm:translate-y-[-0%] sm:mb-2 md:text-left ">
               <h2 className="font-medium">

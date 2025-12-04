@@ -4,7 +4,7 @@ const blogs = [
     title: "Know the Difference Between Front End and Back End Developer",
     path: "know-fronted-backend-developer",
     date: "20 September 2025",
-    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682376966/Blog%20Portfolio%20Gilbert/blog-05_j7lh83.jpg",
+    img: "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764844277/Designer_7_pwpzms.png",
     instagram_link:
       "https://www.instagram.com/justimran____?igsh=aHF3YmxzdnVlZTZv&utm_source=qr",
     linkedin_link:
@@ -23,7 +23,7 @@ const blogs = [
     title: "Get to know what a Proxy Server is & how it works",
     path: "know-proxy-server",
     date: "25 September 2025",
-    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682377204/Blog%20Portfolio%20Gilbert/blog-06_skjv9c.jpg",
+    img: "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764843974/Designer_5_rikwkm.png",
     instagram_link:
       "https://www.instagram.com/justimran____?igsh=aHF3YmxzdnVlZTZv&utm_source=qr",
     linkedin_link:
@@ -38,7 +38,7 @@ const blogs = [
       "Get to know AI (Artificial Intelligence) and Its Role in the World of Technology",
     path: "know-artificial-intelligence",
     date: "15 November 2025",
-    img: "https://res.cloudinary.com/du541igfh/image/upload/v1682378753/Blog%20Portfolio%20Gilbert/blog-10_ceye4o.jpg",
+    img: "https://res.cloudinary.com/dwjqd0dul/image/upload/v1764844187/Designer_6_wmrkmm.png",
     instagram_link:
       "https://www.instagram.com/justimran____?igsh=aHF3YmxzdnVlZTZv&utm_source=qr",
     linkedin_link:

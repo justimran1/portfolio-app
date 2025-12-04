@@ -11,7 +11,6 @@ import { useNavigate } from "react-router-dom";
 import { useInView } from "react-intersection-observer";
 import { headingAnimation, contactAnimation } from "../../hooks/useAnimation";
 import { BottomLine } from "../../components";
-
 const Contact = () => {
   const navigate = useNavigate();
   const form = useRef();
@@ -27,33 +26,46 @@ const Contact = () => {
     }
   }, [inView, animation]);
 
-  const handleSend = (e) => {
+  const handleSend = async (e) => {
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_6xnj05v",
-        "template_exk29f8",
-        form.current,
-        "kLfLk-o6LKj-L9c77"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          Swal.fire({
-            position: "top-end",
-            icon: "success",
-            title: "Your Message has been sent",
-            showConfirmButton: false,
-            timer: 1500,
-          });
-          navigate("/");
+
+    const formData = {
+      name: form.current.name.value,
+      email: form.current.email.value,
+      subject: form.current.subject.value,
+      message: form.current.message.value,
+    };
+
+    try {
+      const res = await fetch("http://localhost:5000/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
         },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
+        body: JSON.stringify(formData),
+      });
+
+      if (res.ok) {
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Message delivered 🚀",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        e.target.reset();
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Oops 😕",
+          text: "Failed to send message",
+        });
+      }
+    } catch (err) {
+      console.error(err);
+    }
   };
+
   return (
     <div className="parent py-24 mt-4">
       <motion.div

@@ -1,12 +1,13 @@
 import React from "react";
 import Lottie from "lottie-react";
 import readingBook from "../../../assets/reading-book.json";
+import business from "../../../assets/business-salesman.json";
 
 const Education = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: readingBook,
+    animationData: business,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -21,7 +22,7 @@ const Education = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
         <div className="">
           <Lottie
-            animationData={readingBook}
+            animationData={business}
             loop={true}
             style={{ height: 300, width: 320 }}
           />

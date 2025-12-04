@@ -4,9 +4,8 @@ import { FaDownload } from "react-icons/fa";
 import { RiFolderInfoFill } from "react-icons/ri";
 import TypeAnimation from "react-type-animation";
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
 import coding from "../../../assets/coding.json";
-import man from "../../../assets/man-with-t-shirt.png";
+import man from "../../../assets/confused-with-phone-expression-character.png";
 import "../../../pages/shared/Shared.css";
 import { SecondaryBtn } from "../../../components";
 
